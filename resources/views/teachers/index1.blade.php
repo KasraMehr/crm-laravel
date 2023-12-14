@@ -59,7 +59,7 @@
                                             <td style="padding-left: 60px;">{{ $loop->iteration }}</td>
                                             <td style="padding-left: 40px;">{{ $item->first_course_topic }}</td>
                                             <td style="padding-left: 40px;">{{ $item->second_course_topic }}</td>
-                                            <td style="padding-left: 40px;">{{ $item->second_course_topic }}</td>
+                                            <td style="padding-left: 40px;">{{ $item->third_course_topic }}</td>
                                             <td style="float: center;">{{ $item->fourth_course_topic }}</td>
                                             <td class="dashboard-table">
                                                 <form method="POST" action="{{ url('/teachers' . '/' . $item->id) }}" accept-charset="UTF-8" style="display:inline">
