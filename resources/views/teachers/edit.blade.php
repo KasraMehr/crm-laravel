@@ -27,15 +27,6 @@
         <label>نام پدر</label><br>
         <input type="text" name="father_name" required="" value="{{$teachers->father_name}}">
       </div><br>
-      <div class="user-box">
-        <label>شماره شناسنامه</label><br>
-        <input type="text" name="ID_number" required="" value="{{$teachers->ID_number}}">
-      </div><br>
-
-      <div class="user-box">
-        <label>سریال شناسنامه</label><br>
-        <input type="text" name="identity_serial_number" required="" value="{{$teachers->identity_serial_number}}">
-      </div><br>
 
       <div class="user-box">
         <label>محل صدور</label><br>

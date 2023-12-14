@@ -31,15 +31,6 @@
           <label>نام پدر</label><br>
           <p> {{$teachers->father_name}} </p>
         </div>
-        <div class="user-box">
-          <label>شماره شناسنامه</label><br>
-          <p> {{$teachers->ID_number}} </p>
-        </div>
-
-        <div class="user-box">
-          <label>سریال شناسنامه</label><br>
-          <p> {{$teachers->serial_number}} </p>
-        </div>
 
         <div class="user-box">
           <label>محل صدور</label><br>
